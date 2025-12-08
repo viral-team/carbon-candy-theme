@@ -7,5 +7,6 @@
 - Introduced **9 dark variants**:
   - **Anthracite**
   - **Dark**
+  - **Graphene**
   - **Graphene Gradients**: v1, v2, v3, v4
   - **Graphene Solid Colors**: Pink, Purple

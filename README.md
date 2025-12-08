@@ -22,13 +22,12 @@ Built on the elegance of **Oxocarbon**, this pack enhances syntax clarity while 
 
 From refined anthracite to expressive neon palettes, Carbon Candy offers a sweet selection of moods for every developer.
 
----
-
 ## 🎨 Theme Variants Included
 
 ### **🖤 Core Dark Variants**
 - **Anthracite**
 - **Dark**
+- **Graphene**
 
 ### **🌈 Graphene Gradient Variants**
 Smooth, carbon-inspired multi-tone transitions:
@@ -103,6 +102,17 @@ This project is released under the MIT License.
 See [`LICENSE`](./LICENSE).
 
 ---
+
+## Credits & Attributions
+
+Carbon Candy’s file icons are inspired by and partially derived from open-source resources:
+
+- **Symbol Icons** — https://github.com/miguelsolorio/vscode-symbols  
+- **Oxocarbon-5** — https://github.com/DaKili/oxocarbon-5
+- Additional SVG assets adapted and recolored for Carbon Candy
+
+All referenced materials are used under their respective open-source licenses.  
+Special thanks to the authors and contributors of these projects for their excellent work.
 
 <div align="center">
 

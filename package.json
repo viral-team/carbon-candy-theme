@@ -17,6 +17,16 @@
     "light theme",
     "viral team"
   ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/viral-team/carbon-candy-theme"
@@ -24,50 +34,78 @@
   "contributes": {
     "themes": [
       {
-        "label": "carbon-candy anthracite",
+        "label": "Carbon Candy Anthracite",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-anthracite.json"
       },
       {
-        "label": "carbon-candy dark",
+        "label": "Carbon Candy Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-dark.json"
       },
       {
-        "label": "carbon-candy graphene",
+        "label": "Carbon Candy Graphene",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene.json"
       },
       {
-        "label": "carbon-candy graphene pink",
+        "label": "Carbon Candy Graphene Pink",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-pink.json"
       },
       {
-        "label": "carbon-candy graphene purple",
+        "label": "Carbon Candy Graphene Purple",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-purple.json"
       },
       {
-        "label": "carbon-candy graphene gradient v1",
+        "label": "Carbon Candy Graphene Gradient V1",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v1.json"
       },
       {
-        "label": "carbon-candy graphene gradient v2",
+        "label": "Carbon Candy Graphene Gradient V2",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v2.json"
       },
       {
-        "label": "carbon-candy graphene gradient v3",
+        "label": "Carbon Candy Graphene Gradient V3",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v3.json"
       },
       {
-        "label": "carbon-candy graphene gradient v4",
+        "label": "Carbon Candy Graphene Gradient V4",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v4.json"
       }
-    ]
+    ],
+    "iconThemes": [
+      {
+        "id": "Carbon Candy Icons",
+        "label": "Carbon Candy Icons",
+        "path": "./icons/carbon-candy-icon-theme.json"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "carbon_candy",
+      "properties": {
+        "carbon_candy.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": false,
+          "description": "Hide arrow icons in the explorer section."
+        },
+        "carbon_candy.folders.associations": {
+          "type": "object",
+          "default": {},
+          "description": "With this configuration can customize the folder icons."
+        },
+        "carbon_candy.files.associations": {
+          "type": "object",
+          "default": {},
+          "description": "With this configuration can customize the files icons."
+        }
+      }
+    }
   }
 }

@@ -37,7 +37,6 @@
 		"editor.findMatchBackground": "#262626",
 		"editor.findMatchBorder": "#ff7eb6",
 		"editor.findMatchForeground": "#ff7eb6",
-
 		"editor.findMatchHighlightBackground": "#be95ff22",
 		"editor.findMatchHighlightBorder": "#ff7eb6",
 		"editor.findRangeHighlightBackground": "#262626d8",
@@ -48,7 +47,6 @@
 		"editor.rangeHighlightBackground": "#ff000000",
 		"editor.rangeHighlightBorder": "#393939",
 		"editor.selectionHighlightBackground": "#393939",
-
 		"editor.selectionBackground": "#393939",
 		"editor.wordHighlightBorder": "#be95ffb8",
 		"editor.wordHighlightTextBackground": "#52525264",
@@ -246,7 +244,6 @@
 		"terminal.selectionBackground": "#363636",
 		"terminal.tab.activeBorder": "#ff7eb6",
 		"terminal.findMatchBackground": "#262626",
-		
 		"terminalCursor.foreground": "#78a9ff",
 		"terminalCommandDecoration.defaultBackground": "#be95ff",
 		"terminalCommandDecoration.successBackground": "#42be65",
