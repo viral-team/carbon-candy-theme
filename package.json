@@ -1,0 +1,73 @@
+{
+  "name": "carbon-candy",
+  "icon": "img/logo.png",
+  "displayName": "Carbon Candy",
+  "description": "Carbon Candy Theme for VS Code",
+  "version": "0.1.3",
+  "publisher": "viral-team",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "viral team"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viral-team/carbon-candy-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "carbon-candy anthracite",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-anthracite.json"
+      },
+      {
+        "label": "carbon-candy dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-dark.json"
+      },
+      {
+        "label": "carbon-candy graphene",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene.json"
+      },
+      {
+        "label": "carbon-candy graphene pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-pink.json"
+      },
+      {
+        "label": "carbon-candy graphene purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-purple.json"
+      },
+      {
+        "label": "carbon-candy graphene gradient v1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-gradient-v1.json"
+      },
+      {
+        "label": "carbon-candy graphene gradient v2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-gradient-v2.json"
+      },
+      {
+        "label": "carbon-candy graphene gradient v3",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-gradient-v3.json"
+      },
+      {
+        "label": "carbon-candy graphene gradient v4",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-gradient-v4.json"
+      }
+    ]
+  }
+}
