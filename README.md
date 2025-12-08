@@ -72,6 +72,9 @@ Punchy, vibrant, and high-contrast variants:
   - JSON  
   - Markdown  
   - and more
+- Compatible with:
+  - VS Code
+  - Antigravity
 
 ---
 
@@ -79,6 +82,12 @@ Punchy, vibrant, and high-contrast variants:
 
 _Coming soon…_  
 High-quality previews of each theme variant will be added.
+
+### Carbon Candy Pink
+![Carbon Candy Pink Screenshot](https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/carbon-candy-pink.png)
+
+### Carbon Candy Purple
+![Carbon Candy Purple Screenshot](https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/carbon-candy-purple.png)
 
 ---
 
