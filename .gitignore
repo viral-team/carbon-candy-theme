@@ -1,1 +1,6 @@
 *.vsix
+.vscodeignore
+.gitignore
+.vscode
+.vscode/*
+icons/carbon-candy-icon-theme.bkp.json

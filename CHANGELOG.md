@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4 — 2025-12-09
+
+### Added
+- Added **configuration** to the extension.
+
+### Changed
+- Changed the **configuration** to be **carbonCandy**.
+
 ## 0.1.3 — 2025-12-08
 
 ### Added

@@ -3,7 +3,7 @@
   "icon": "img/logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -88,19 +88,19 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "carbon_candy",
+      "title": "Carbon Candy",
       "properties": {
-        "carbon_candy.hidesExplorerArrows": {
+        "carbonCandy.hidesExplorerArrows": {
           "type": "boolean",
           "default": false,
           "description": "Hide arrow icons in the explorer section."
         },
-        "carbon_candy.folders.associations": {
+        "carbonCandy.folders.associations": {
           "type": "object",
           "default": {},
           "description": "With this configuration can customize the folder icons."
         },
-        "carbon_candy.files.associations": {
+        "carbonCandy.files.associations": {
           "type": "object",
           "default": {},
           "description": "With this configuration can customize the files icons."
