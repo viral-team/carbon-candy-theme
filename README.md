@@ -25,21 +25,28 @@ From refined anthracite to expressive neon palettes, Carbon Candy offers a sweet
 ## 🎨 Theme Variants Included
 
 ### **🖤 Core Dark Variants**
-- **Anthracite**
-- **Dark**
-- **Graphene**
+- **Anthracite** — Deep slate gray foundation
+- **Dark** — Rich charcoal base
+- **Graphene** — Balanced carbon black with vibrant accents
 
 ### **🌈 Graphene Gradient Variants**
 Smooth, carbon-inspired multi-tone transitions:
-- Graphene Gradient **v1**
-- Graphene Gradient **v2**
-- Graphene Gradient **v3**
-- Graphene Gradient **v4**
+- **Graphene Gradient v1** — Subtle teal-to-blue fade
+- **Graphene Gradient v2** — Purple-to-pink gradient flow
+- **Graphene Gradient v3** — Cool cyan progression
+- **Graphene Gradient v4** — Warm amber-to-orange blend
 
 ### **🍬 Graphene Solid Candy Colors**
 Punchy, vibrant, and high-contrast variants:
-- **Pink**
-- **Purple**
+- **Pink** — Hot magenta accents on deep carbon
+- **Purple** — Royal violet highlights on dark base
+
+### **✨ Minimalist & Focus Variants**
+Clean, borderless designs for maximum clarity:
+- **Palenight** — Classic purple-tinted dark theme with cyan foreground
+- **Carbon** — Deep focus theme with neutral gray palette
+- **Obsidian** — Ultra-minimalist near-black with fully transparent borders
+- **Aurora** — Crisp, clean variant with teal accents and excellent readability
 
 ---
 
@@ -56,24 +63,39 @@ Punchy, vibrant, and high-contrast variants:
 
 ## 🛠️ Why Choose Carbon Candy?
 
-- Deep, eye-friendly dark backgrounds  
-- Bright neon candy accents for excellent syntax visibility  
-- Visually striking contrast without sacrificing readability  
-- Multiple unique moods:
-  - Minimal  
-  - Gradient  
-  - Playful color-rich  
+- **16 unique theme variants** to match any preference
+- Deep, eye-friendly dark backgrounds (ranging from near-black to charcoal)
+- Bright neon candy accents for excellent syntax visibility
+- Visually striking contrast without sacrificing readability
+- Multiple aesthetic moods:
+  - **Classic** — Anthracite, Dark, Graphene
+  - **Gradient** — Smooth multi-tone transitions (v1–v4)
+  - **Playful** — Pink and Purple with candy-style pops
+  - **Minimalist** — Palenight, Carbon, Obsidian, Aurora with borderless design
 - Optimized for:
-  - Java  
-  - Kotlin  
-  - Python  
-  - TypeScript / JavaScript  
-  - JSON  
-  - Markdown  
+  - Java
+  - Kotlin
+  - Python
+  - TypeScript / JavaScript
+  - JSON
+  - Markdown
+  - CSS / HTML
   - and more
 - Compatible with:
   - VS Code
   - Antigravity
+
+### **Color Palette Highlights**
+- **Backgrounds**: `#000000` to `#292D3E` (pure black to purple-tinted)
+- **Foregrounds**: `#D4D4D4` to `#EEFFFF` (neutral to cyan-white)
+- **Syntax Tokens**: Vibrant candy colors
+  - Blues: `#82AAFF`
+  - Greens: `#C3E88D`
+  - Reds: `#f07178`
+  - Magentas: `#C792EA`
+  - Yellows: `#FFCB6B`
+  - Cyans: `#89DDFF`
+  - Oranges: `#F78C6C`
 
 ---
 
@@ -87,6 +109,9 @@ High-quality previews of each theme variant will be added.
 
 ### Carbon Candy Purple
 ![Carbon Candy Purple Screenshot](https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/carbon-candy-purple.png)
+
+### Many combinations
+![Carbon Candy Variants Screenshots](https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/variants.png)
 
 ---
 

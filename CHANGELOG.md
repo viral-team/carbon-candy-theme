@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.5 — 2025-12-09
+
+### Added
+- Added **Aurora** theme — clean, minimalist variant with crisp contrast and teal accents.
+- Added **Palenight** theme — classic purple-tinted dark theme.
+- Added **Carbon** theme — deep, focused dark theme.
+- Added **Obsidian** theme — ultra-minimalist variant with borderless aesthetic.
+
+### Fixed
+- Fixed configuration change detection to prevent false positives and reload loops.
+- Fixed settings stability verification before applying configuration changes.
+- Improved debounce logic for configuration monitoring.
+
 ## 0.1.4 — 2025-12-09
 
 ### Added
