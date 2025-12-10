@@ -6,9 +6,7 @@ Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
 <br/>
 
-<!-- Screenshot placeholders -->
-<!-- ![Main Screenshot](./images/screenshot-main.png) -->
-<!-- More screenshots will be added later -->
+[![vscode](https://img.shields.io/badge/vscode-v1.92+-373277.svg?style=for-the-badge)](https://code.visualstudio.com/updates/v1_92) ![Static Badge](https://img.shields.io/badge/made_in-Italy-%23CD212A?style=for-the-badge&labelColor=%23008C45) ![GitHub last commit](https://img.shields.io/github/last-commit/viral-team/carbon-candy-theme?style=for-the-badge)
 
 </div>
 
@@ -100,9 +98,6 @@ Clean, borderless designs for maximum clarity:
 ---
 
 ## 🖼️ Screenshots
-
-_Coming soon…_  
-High-quality previews of each theme variant will be added.
 
 ### Carbon Candy Pink
 ![Carbon Candy Pink Screenshot](https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/carbon-candy-pink.png)
