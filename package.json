@@ -3,7 +3,7 @@
   "icon": "img/logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
