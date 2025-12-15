@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.8 — 2025-12-15
+
+### Added
+- Added **Bee** theme — bumblebee yellow accents on dark base.
+- Added new product logo.
+
+### Fixed
+- Optimized logo size.
+
 ## 0.1.5 — 2025-12-09
 
 ### Added
