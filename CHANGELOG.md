@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.9 — 2025-12-15
+
+### Changed
+- Changed the product logo.
+
 ## 0.1.8 — 2025-12-15
 
 ### Added
