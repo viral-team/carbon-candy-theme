@@ -1,12 +1,18 @@
 <div align="center">
 
-# **Carbon Candy — Dark Theme Pack**
+# <img src="img/logo.png" height="50" style="vertical-align:middle"/> **Carbon Candy — Dark Theme Pack**
 ### A bold, neon-contrasted dark theme collection for VS Code  
 Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
 <br/>
 
 [![vscode](https://img.shields.io/badge/vscode-v1.92+-373277.svg?style=for-the-badge)](https://code.visualstudio.com/updates/v1_92) ![Static Badge](https://img.shields.io/badge/made_in-Italy-%23CD212A?style=for-the-badge&labelColor=%23008C45) ![GitHub last commit](https://img.shields.io/github/last-commit/viral-team/carbon-candy-theme?style=for-the-badge)
+
+<br/>
+
+![Team Logo](img/team-logo.png)
+<br/>
+built by Viral Team
 
 </div>
 
@@ -38,6 +44,7 @@ Smooth, carbon-inspired multi-tone transitions:
 Punchy, vibrant, and high-contrast variants:
 - **Pink** — Hot magenta accents on deep carbon
 - **Purple** — Royal violet highlights on dark base
+- **Bee** — Bumblebee yellow accents on dark base
 
 ### **✨ Minimalist & Focus Variants**
 Clean, borderless designs for maximum clarity:
@@ -61,7 +68,7 @@ Clean, borderless designs for maximum clarity:
 
 ## 🛠️ Why Choose Carbon Candy?
 
-- **16 unique theme variants** to match any preference
+- **14 unique theme variants** to match any preference
 - Deep, eye-friendly dark backgrounds (ranging from near-black to charcoal)
 - Bright neon candy accents for excellent syntax visibility
 - Visually striking contrast without sacrificing readability
