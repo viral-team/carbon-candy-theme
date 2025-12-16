@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -51,86 +51,100 @@
   "contributes": {
     "themes": [
       {
+        "id": "carbon-candy-anthracite",
         "label": "Carbon Candy Anthracite",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-anthracite.json"
       },
       {
+        "id": "carbon-candy-dark",
         "label": "Carbon Candy Dark",
         "uiTheme": "hc-black",
         "path": "./themes/carbon-candy-dark.json"
       },
       {
+        "id": "carbon-candy-graphene",
         "label": "Carbon Candy Graphene",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene.json"
       },
       {
+        "id": "carbon-candy-graphene-pink",
         "label": "Carbon Candy Graphene Pink",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-pink.json"
       },
       {
+        "id": "carbon-candy-graphene-purple",
         "label": "Carbon Candy Graphene Purple",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-purple.json"
       },
       {
+        "id": "carbon-candy-graphene-bee",
+        "label": "Carbon Candy Graphene Bee",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-bee.json"
+      },
+      {
+        "id": "carbon-candy-graphene-gradient-v1",
         "label": "Carbon Candy Graphene Gradient V1",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v1.json"
       },
       {
+        "id": "carbon-candy-graphene-gradient-v2",
         "label": "Carbon Candy Graphene Gradient V2",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v2.json"
       },
       {
+        "id": "carbon-candy-graphene-gradient-v3",
         "label": "Carbon Candy Graphene Gradient V3",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v3.json"
       },
       {
+        "id": "carbon-candy-graphene-gradient-v4",
         "label": "Carbon Candy Graphene Gradient V4",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-gradient-v4.json"
       },
       {
+        "id": "carbon-candy-graphene-palenight",
         "label": "Carbon Candy Palenight",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-palenight.json"
       },
       {
+        "id": "carbon-candy-carbon",
         "label": "Carbon Candy Carbon",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-carbon.json"
       },
       {
+        "id": "carbon-candy-obsidian",
         "label": "Carbon Candy Obsidian",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-obsidian.json"
       },
       {
+        "id": "carbon-candy-aurora",
         "label": "Carbon Candy Aurora",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-aurora.json"
-      },
-      {
-        "label": "Carbon Candy Bee",
-        "uiTheme": "vs-dark",
-        "path": "./themes/carbon-candy-bee.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "Carbon Candy Icons",
-        "label": "Carbon Candy Icons",
-        "path": "./icons/carbon-candy-icon-theme.json"
+        "id": "carbon-candy-file-icons",
+        "label": "Carbon Candy File Icons",
+        "path": "./icons/carbon-candy-file-icon-theme.json"
       }
     ],
     "productIconThemes": [
       {
-        "id": "Carbon Candy Product Icons",
+        "id": "carbon-candy-product-icons",
         "label": "Carbon Candy Product Icons",
         "path": "./productIcons/carbon-candy-product-icon-theme.json"
       }

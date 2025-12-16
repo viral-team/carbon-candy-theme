@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/app-logo.png" height="56" style="vertical-align:middle"/> **Carbon Candy — Dark Theme Pack**
+# **Carbon Candy — Dark Theme Pack**
 ### A bold, neon-contrasted dark theme collection for VS Code  
 Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
