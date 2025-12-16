@@ -1,9 +1,18 @@
 # Changelog
 
-## 0.2.0 — 2025-12-16
+## 0.2.2 — 2025-12-16
+
+### Changed
+- Made debug toolbar more prominent for Graphene and Obsidian themes
+
+## 0.2.1 — 2025-12-16
 
 ### Added
 - Added **product icons** theme for custom VS Code product icon customization.
+- Added **Carbon Candy** product icon theme to the extension.
+
+### Changed
+- Updated README with credits to Carbon Product Icons (tweaked) under MIT License.
 
 ## 0.1.9 — 2025-12-15
 
