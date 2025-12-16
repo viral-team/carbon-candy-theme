@@ -132,10 +132,11 @@ See [`LICENSE`](./LICENSE).
 
 ## Credits & Attributions
 
-Carbon Candy’s file icons are inspired by and partially derived from open-source resources:
+Carbon Candy's file icons and product icons are inspired by and partially derived from open-source resources:
 
 - **Symbol Icons** — https://github.com/miguelsolorio/vscode-symbols  
 - **Oxocarbon-5** — https://github.com/DaKili/oxocarbon-5
+- **Carbon Product Icons (tweaked)** — https://github.com/yttriumz/vscode-icons-carbon-tweaked
 - Additional SVG assets adapted and recolored for Carbon Candy
 
 All referenced materials are used under their respective open-source licenses.  

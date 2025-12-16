@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -126,6 +126,13 @@
         "id": "Carbon Candy Icons",
         "label": "Carbon Candy Icons",
         "path": "./icons/carbon-candy-icon-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "Carbon Candy Product Icons",
+        "label": "Carbon Candy Product Icons",
+        "path": "./productIcons/carbon-candy-product-icon-theme.json"
       }
     ],
     "configuration": {

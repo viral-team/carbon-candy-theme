@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 — 2025-12-16
+
+### Added
+- Added **product icons** theme for custom VS Code product icon customization.
+
 ## 0.1.9 — 2025-12-15
 
 ### Changed
