@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.3 — 2026-02-06
+
+### Added
+- Added thin light-gray bordered variants (UI division via thin borders):
+  - `carbon-candy-dark (thin-border)`
+  - `carbon-candy-carbon (thin-border)`
+  - `carbon-candy-graphene (thin-border)`
+  - `carbon-candy-aurora (thin-border)`
+
 ## 0.2.2 — 2025-12-16
 
 ### Changed

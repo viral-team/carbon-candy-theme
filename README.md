@@ -53,6 +53,16 @@ Clean, borderless designs for maximum clarity:
 - **Obsidian** — Ultra-minimalist near-black with fully transparent borders
 - **Aurora** — Crisp, clean variant with teal accents and excellent readability
 
+### **🔲 Thin Light-Gray Bordered Variants**
+For users who want clearer visual separation between UI regions, thin light-gray bordered variants add a subtle 1px-style border around panels, the activity/side bar, editor groups, tabs and other UI surfaces.
+
+- `carbon-candy-dark (thin-border)` — Dark theme with thin light-gray borders
+- `carbon-candy-carbon (thin-border)` — Carbon variant with thin light-gray borders
+- `carbon-candy-graphene (thin-border)` — Graphene variant with thin light-gray borders
+- `carbon-candy-aurora (thin-border)` — Aurora variant with thin light-gray borders
+
+These variants do not modify original themes; they are additional theme files you can select from the Color Theme picker.
+
 ---
 
 ## 📦 Installation

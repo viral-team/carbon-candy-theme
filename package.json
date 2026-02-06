@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -12,11 +12,11 @@
     "Themes"
   ],
   "keywords": [
+    "viral team",
     "themes",
     "theme",
     "dark theme",
     "light theme",
-    "viral team",
     "carbon candy",
     "carbon",
     "candy",
@@ -133,6 +133,30 @@
         "label": "Carbon Candy Aurora",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-aurora.json"
+      },
+      {
+        "id": "carbon-candy-aurora-thin-border",
+        "label": "Carbon Candy Aurora Thin Border",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-aurora-thin-border.json"
+      },
+      {
+        "id": "carbon-candy-carbon-thin-border",
+        "label": "Carbon Candy Carbon Thin Border",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-carbon-thin-border.json"
+      },
+      {
+        "id": "carbon-candy-dark-thin-border",
+        "label": "Carbon Candy Dark Thin Border",
+        "uiTheme": "hc-black",
+        "path": "./themes/carbon-candy-dark-thin-border.json"
+      },
+      {
+        "id": "carbon-candy-graphene-thin-border",
+        "label": "Carbon Candy Graphene Thin Border",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-thin-border.json"
       }
     ],
     "iconThemes": [
