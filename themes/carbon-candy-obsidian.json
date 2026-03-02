@@ -84,7 +84,7 @@
         "editor.background": "#0F0F0F",
         "editor.foreground": "#D8D8D8",
         "editor.selectionHighlightBackground": "#FFCC0033",
-        "editor.selectionBackground": "#30303080",
+        "editor.selectionBackground": "#50505099",
         "editorStickyScrollHover.background": "#3030304d",
         "editor.selectionForeground": "#D8D8D8",
         "editor.lineHighlightBackground": "#20202000",
