@@ -1,6 +1,6 @@
 <div align="center">
 
-# **Carbon Candy — Dark Theme Pack**
+# **Carbon Candy — Theme Pack**
 ### A bold, neon-contrasted dark theme collection for VS Code  
 Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
@@ -53,6 +53,11 @@ Clean, borderless designs for maximum clarity:
 - **Obsidian** — Ultra-minimalist near-black with fully transparent borders
 - **Aurora** — Crisp, clean variant with teal accents and excellent readability
 
+### **🌅 Solarized Variants**
+Inspired by the legendary **Solarized** palette, these themes combine the ease-of-reading philosophy with carefully tuned accent colors. Perfect for extended coding sessions with minimal eye strain.
+- **Solarized Dark** — Dark variant using the Solarized color palette, optimized for visual comfort and syntax clarity
+- **Solarized Light** — Light variant (a first for Carbon Candy!) bringing Solarized's clarity to bright environments
+
 ### **🔲 Thin Light-Gray Bordered Variants**
 For users who want clearer visual separation between UI regions, thin light-gray bordered variants add a subtle 1px-style border around panels, the activity/side bar, editor groups, tabs and other UI surfaces.
 
@@ -78,7 +83,7 @@ These variants do not modify original themes; they are additional theme files yo
 
 ## 🛠️ Why Choose Carbon Candy?
 
-- **14 unique theme variants** to match any preference
+- **16 unique theme variants** to match any preference
 - Deep, eye-friendly dark backgrounds (ranging from near-black to charcoal)
 - Bright neon candy accents for excellent syntax visibility
 - Visually striking contrast without sacrificing readability

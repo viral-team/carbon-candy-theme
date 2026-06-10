@@ -36,6 +36,35 @@ def merge(base, thin):
     if 'semanticHighlighting' not in thin and 'semanticHighlighting' in base:
         thin['semanticHighlighting'] = base['semanticHighlighting']
 
+    # Ensure icon.foreground uses the theme's main accent color
+    accent_keys = [
+        'pickerGroup.foreground',
+        'activityBar.foreground',
+        'textLink.foreground',
+        'button.background',
+        'progressBar.background',
+        'extensionButton.foreground',
+        'activityBarBadge.background',
+        'selection.background',
+        'foreground'
+    ]
+    accent = None
+    for k in accent_keys:
+        if k in base_colors:
+            accent = base_colors[k]
+            break
+
+    def add_alpha(hexcolor, alpha='b3'):
+        if not isinstance(hexcolor, str):
+            return hexcolor
+        h = hexcolor.strip()
+        if h.startswith('#') and len(h) == 7:
+            return h + alpha
+        return h
+
+    if accent:
+        thin_colors['icon.foreground'] = add_alpha(accent)
+
     return thin
 
 def main():

@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.9",
+  "version": "0.2.12",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -32,7 +32,10 @@
     "bee",
     "palenight",
     "obsidian",
-    "aurora"
+    "aurora",
+    "solarized",
+    "solarized dark",
+    "solarized light"
   ],
   "capabilities": {
     "untrustedWorkspaces": {
@@ -85,6 +88,18 @@
         "label": "Carbon Candy Graphene Bee",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-bee.json"
+      },
+      {
+        "id": "carbon-candy-graphene-bee-thin-border",
+        "label": "Carbon Candy Bee Thin Border",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-bee-thin-border.json"
+      },
+      {
+        "id": "carbon-candy-graphene-bee-lightroom",
+        "label": "Carbon Candy Bee Lightroom Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-graphene-bee-lightroom.json"
       },
       {
         "id": "carbon-candy-graphene-gradient-v1",
@@ -176,6 +191,24 @@
         "label": "Carbon Candy Graphene Purple Thin Border",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-purple-thin-border.json"
+      },
+      {
+        "id": "carbon-candy-solarized-dark",
+        "label": "Carbon Candy Solarized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-solarized-dark.json"
+      },
+      {
+        "id": "carbon-candy-solarized-light",
+        "label": "Carbon Candy Solarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/carbon-candy-solarized-light.json"
+      },
+      {
+        "id": "carbon-candy-solarized-light-modern",
+        "label": "Carbon Candy Solarized Light Modern",
+        "uiTheme": "vs",
+        "path": "./themes/carbon-candy-solarized-light-modern.json"
       }
     ],
     "iconThemes": [
