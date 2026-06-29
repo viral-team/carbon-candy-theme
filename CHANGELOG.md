@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.13 — 2026-06-29
+
+### Added
+- Added a new Lightroom-based theme variant: **Kawasaki Lightroom** with light green 400 accents.
+- Added the new theme entry to the extension manifest for discoverability in VS Code.
+
+### Changed
+- Expanded the theme catalog with a new Lightroom-inspired option while keeping the original Lightroom base styling.
+- Updated the documentation to reflect the latest theme additions.
+
 ## 0.2.4 — 2026-02-07
 - Fixed upper border color in thin bordered themes
 

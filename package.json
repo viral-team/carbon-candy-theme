@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -35,7 +35,9 @@
     "aurora",
     "solarized",
     "solarized dark",
-    "solarized light"
+    "solarized light",
+    "lightroom",
+    "kawasaki"
   ],
   "capabilities": {
     "untrustedWorkspaces": {
@@ -100,6 +102,12 @@
         "label": "Carbon Candy Bee Lightroom Gray",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-bee-lightroom.json"
+      },
+      {
+        "id": "carbon-candy-kawasaki-lightroom",
+        "label": "Carbon Candy Kawasaki Lightroom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-kawasaki-lightroom.json"
       },
       {
         "id": "carbon-candy-graphene-gradient-v1",

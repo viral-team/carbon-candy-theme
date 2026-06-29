@@ -45,6 +45,7 @@ Punchy, vibrant, and high-contrast variants:
 - **Pink** — Hot magenta accents on deep carbon
 - **Purple** — Royal violet highlights on dark base
 - **Bee** — Bumblebee yellow accents on dark base
+- **Kawasaki Lightroom** — Lightroom-inspired gray base with bright light green 400 accents
 
 ### **✨ Minimalist & Focus Variants**
 Clean, borderless designs for maximum clarity:
@@ -83,7 +84,7 @@ These variants do not modify original themes; they are additional theme files yo
 
 ## 🛠️ Why Choose Carbon Candy?
 
-- **16 unique theme variants** to match any preference
+- **20+ unique theme variants** to match any preference
 - Deep, eye-friendly dark backgrounds (ranging from near-black to charcoal)
 - Bright neon candy accents for excellent syntax visibility
 - Visually striking contrast without sacrificing readability
