@@ -46,6 +46,7 @@ Punchy, vibrant, and high-contrast variants:
 - **Purple** — Royal violet highlights on dark base
 - **Bee** — Bumblebee yellow accents on dark base
 - **Kawasaki Lightroom** — Lightroom-inspired gray base with bright light green 400 accents
+- **Matrix** — Neon digital rain with luminous green highlights on a shadowed deep gray canvas
 
 ### **✨ Minimalist & Focus Variants**
 Clean, borderless designs for maximum clarity:

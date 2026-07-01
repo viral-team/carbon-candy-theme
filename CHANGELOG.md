@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.14 — 2026-07-01
+
+### Added
+- Added a brand new theme variant: **Matrix**, with luminous neon green highlights and a digital rain-inspired dark base.
+- Added the new theme entries to the extension manifest for discoverability in VS Code.
+
+### Changed
+- Updated the documentation to reflect the new Matrix theme.
+
 ## 0.2.13 — 2026-06-29
 
 ### Added

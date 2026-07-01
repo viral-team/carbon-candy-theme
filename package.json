@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -108,6 +108,12 @@
         "label": "Carbon Candy Kawasaki Lightroom",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-kawasaki-lightroom.json"
+      },
+      {
+        "id": "carbon-candy-matrix",
+        "label": "Carbon Candy Matrix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-matrix.json"
       },
       {
         "id": "carbon-candy-graphene-gradient-v1",
