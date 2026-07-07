@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.15",
+  "version": "0.2.17",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -76,19 +76,19 @@
       },
       {
         "id": "carbon-candy-graphene-pink",
-        "label": "Carbon Candy Graphene Pink",
+        "label": "Carbon Candy Pink",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-pink.json"
       },
       {
         "id": "carbon-candy-graphene-purple",
-        "label": "Carbon Candy Graphene Purple",
+        "label": "Carbon Candy Purple",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-purple.json"
       },
       {
         "id": "carbon-candy-graphene-bee",
-        "label": "Carbon Candy Graphene Bee",
+        "label": "Carbon Candy Bee",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-bee.json"
       },
@@ -100,13 +100,13 @@
       },
       {
         "id": "carbon-candy-graphene-bee-lightroom",
-        "label": "Carbon Candy Bee Lightroom Gray",
+        "label": "Carbon Candy Bee Lightroom",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-bee-lightroom.json"
       },
       {
         "id": "carbon-candy-kawasaki-lightroom",
-        "label": "Carbon Candy Kawasaki Lightroom",
+        "label": "Carbon Candy Kawasaki",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-kawasaki-lightroom.json"
       },
@@ -124,13 +124,13 @@
       },
       {
         "id": "carbon-candy-matrix-neon-blur",
-        "label": "Carbon Candy Matrix Neon Blur",
+        "label": "Carbon Candy Matrix Cyber",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-matrix-neon-blur.json"
       },
       {
         "id": "carbon-candy-matrix-green",
-        "label": "Carbon Candy Matrix Green",
+        "label": "Carbon Candy Matrix Emerald",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-matrix-green.json"
       },
@@ -215,13 +215,13 @@
       ,
       {
         "id": "carbon-candy-graphene-pink-thin-border",
-        "label": "Carbon Candy Graphene Pink Thin Border",
+        "label": "Carbon Candy Pink Thin Border",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-pink-thin-border.json"
       },
       {
         "id": "carbon-candy-graphene-purple-thin-border",
-        "label": "Carbon Candy Graphene Purple Thin Border",
+        "label": "Carbon Candy Purple Thin Border",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-purple-thin-border.json"
       },

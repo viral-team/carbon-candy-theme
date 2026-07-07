@@ -28,37 +28,71 @@ From refined anthracite to expressive neon palettes, Carbon Candy offers a sweet
 
 ## 🎨 Theme Variants Included
 
-### **🖤 Core Dark Variants**
+```text
+Carbon Candy
+├─ Core Themes
+│  ├─ Graphene
+│  ├─ Carbon
+│  ├─ Anthracite
+│  ├─ Obsidian
+│  └─ Dark
+├─ Accent Themes
+│  ├─ Bee
+│  ├─ Pink
+│  ├─ Purple
+│  ├─ Aurora
+│  └─ Kawasaki
+├─ Matrix Collection
+│  ├─ Matrix
+│  ├─ Matrix Emerald
+│  ├─ Matrix Neon
+│  └─ Matrix Cyber
+├─ Gradient Collection
+│  ├─ Gradient V1
+│  ├─ Gradient V2
+│  ├─ Gradient V3
+│  └─ Gradient V4
+└─ Classics
+   ├─ Palenight
+   ├─ Solarized Dark
+   ├─ Solarized Light
+   └─ Solarized Light Modern
+```
+
+### **🖤 Core Themes**
 - **Anthracite** — Deep slate gray foundation
 - **Dark** — Rich charcoal base
 - **Graphene** — Balanced carbon black with vibrant accents
-
-### **🌈 Graphene Gradient Variants**
-Smooth, carbon-inspired multi-tone transitions:
-- **Graphene Gradient v1** — Subtle teal-to-blue fade
-- **Graphene Gradient v2** — Purple-to-pink gradient flow
-- **Graphene Gradient v3** — Cool cyan progression
-- **Graphene Gradient v4** — Warm amber-to-orange blend
-
-### **🍬 Graphene Solid Candy Colors**
-Punchy, vibrant, and high-contrast variants:
-- **Pink** — Hot magenta accents on deep carbon
-- **Purple** — Royal violet highlights on dark base
-- **Bee** — Bumblebee yellow accents on dark base
-- **Kawasaki Lightroom** — Lightroom-inspired gray base with bright light green 400 accents
-- **Matrix** — Neon digital rain with luminous green highlights on a shadowed deep gray canvas
-
-### **✨ Minimalist & Focus Variants**
-Clean, borderless designs for maximum clarity:
-- **Palenight** — Classic purple-tinted dark theme with cyan foreground
 - **Carbon** — Deep focus theme with neutral gray palette
 - **Obsidian** — Ultra-minimalist near-black with fully transparent borders
-- **Aurora** — Crisp, clean variant with teal accents and excellent readability
 
-### **🌅 Solarized Variants**
-Inspired by the legendary **Solarized** palette, these themes combine the ease-of-reading philosophy with carefully tuned accent colors. Perfect for extended coding sessions with minimal eye strain.
+### **🌈 Gradient Collection**
+Smooth, carbon-inspired multi-tone transitions:
+- **Gradient V1** — Subtle teal-to-blue fade
+- **Gradient V2** — Purple-to-pink gradient flow
+- **Gradient V3** — Cool cyan progression
+- **Gradient V4** — Warm amber-to-orange blend
+
+### **🍬 Accent Themes**
+Punchy, vibrant, and high-contrast variants:
+- **Carbon Candy Pink** — Hot magenta accents on deep carbon
+- **Carbon Candy Purple** — Royal violet highlights on dark base
+- **Carbon Candy Bee** — Bumblebee yellow accents on dark base
+- **Carbon Candy Aurora** — Crisp, clean variant with teal accents and excellent readability
+- **Carbon Candy Kawasaki** — Lightroom-inspired gray base with bright light green 400 accents
+
+### **🟩 Matrix Collection**
+- **Carbon Candy Matrix** — Neon digital rain with luminous green highlights on a shadowed deep gray canvas
+- **Carbon Candy Matrix Emerald** — Matrix variant with emerald accents and a refined dark base
+- **Carbon Candy Matrix Neon** — Bright, vivid neon treatment for the Matrix family
+- **Carbon Candy Matrix Cyber** — A sharper, cyber-inspired Matrix variant with boosted contrast
+
+### **🌅 Classics**
+Inspired by the legendary **Solarized** palette and classic dark compositions:
+- **Palenight** — Classic purple-tinted dark theme with cyan foreground
 - **Solarized Dark** — Dark variant using the Solarized color palette, optimized for visual comfort and syntax clarity
-- **Solarized Light** — Light variant (a first for Carbon Candy!) bringing Solarized's clarity to bright environments
+- **Solarized Light** — Light variant bringing Solarized's clarity to bright environments
+- **Solarized Light Modern** — Refined light variant with a more modern balance of contrast and softness
 
 ### **🔲 Thin Light-Gray Bordered Variants**
 For users who want clearer visual separation between UI regions, thin light-gray bordered variants add a subtle 1px-style border around panels, the activity/side bar, editor groups, tabs and other UI surfaces.
