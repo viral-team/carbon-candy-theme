@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.14",
+  "version": "0.2.15",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -37,7 +37,8 @@
     "solarized dark",
     "solarized light",
     "lightroom",
-    "kawasaki"
+    "kawasaki",
+    "matrix"
   ],
   "capabilities": {
     "untrustedWorkspaces": {
@@ -114,6 +115,24 @@
         "label": "Carbon Candy Matrix",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-matrix.json"
+      },
+      {
+        "id": "carbon-candy-matrix-neon",
+        "label": "Carbon Candy Matrix Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-matrix-neon.json"
+      },
+      {
+        "id": "carbon-candy-matrix-neon-blur",
+        "label": "Carbon Candy Matrix Neon Blur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-matrix-neon-blur.json"
+      },
+      {
+        "id": "carbon-candy-matrix-green",
+        "label": "Carbon Candy Matrix Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-matrix-green.json"
       },
       {
         "id": "carbon-candy-graphene-gradient-v1",
