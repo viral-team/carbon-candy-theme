@@ -1,7 +1,7 @@
 <div align="center">
 
-# **Carbon Candy — Theme Pack**
-### A bold, neon-contrasted dark theme collection for VS Code  
+<img src="https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/hero-banner.png" alt="Carbon Candy — Theme Pack for VS Code" width="760" />
+
 Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
 <br/>
@@ -10,9 +10,13 @@ Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
 <br/>
 
-![Team Logo](https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/team-logo.png)
+[**Install**](#-installation) · [**Themes**](#-theme-variants-included) · [**Screenshots**](#️-screenshots) · [**Changelog**](./CHANGELOG.md)
+
 <br/>
-built by Viral Team
+
+<img src="https://raw.githubusercontent.com/viral-team/carbon-candy-theme/main/img/team-logo.png" alt="Viral Team" width="56" />
+<br/>
+<sub>built by <b>Viral Team</b></sub>
 
 </div>
 
@@ -38,6 +42,7 @@ Carbon Candy
 │  └─ Dark
 ├─ Accent Themes
 │  ├─ Bee
+│  ├─ Bee Lightroom
 │  ├─ Pink
 │  ├─ Purple
 │  ├─ Aurora
@@ -52,6 +57,15 @@ Carbon Candy
 │  ├─ Gradient V2
 │  ├─ Gradient V3
 │  └─ Gradient V4
+├─ Thin Border Variants
+│  ├─ Dark
+│  ├─ Carbon
+│  ├─ Graphene
+│  ├─ Aurora
+│  ├─ Obsidian
+│  ├─ Bee
+│  ├─ Pink
+│  └─ Purple
 └─ Classics
    ├─ Palenight
    ├─ Solarized Dark
@@ -78,6 +92,7 @@ Punchy, vibrant, and high-contrast variants:
 - **Carbon Candy Pink** — Hot magenta accents on deep carbon
 - **Carbon Candy Purple** — Royal violet highlights on dark base
 - **Carbon Candy Bee** — Bumblebee yellow accents on dark base
+- **Carbon Candy Bee Lightroom** — Bee accents on a lightroom-inspired gray base
 - **Carbon Candy Aurora** — Crisp, clean variant with teal accents and excellent readability
 - **Carbon Candy Kawasaki** — Lightroom-inspired gray base with bright light green 400 accents
 
@@ -101,6 +116,10 @@ For users who want clearer visual separation between UI regions, thin light-gray
 - `carbon-candy-carbon (thin-border)` — Carbon variant with thin light-gray borders
 - `carbon-candy-graphene (thin-border)` — Graphene variant with thin light-gray borders
 - `carbon-candy-aurora (thin-border)` — Aurora variant with thin light-gray borders
+- `carbon-candy-obsidian (thin-border)` — Obsidian variant with thin light-gray borders
+- `carbon-candy-bee (thin-border)` — Bee variant with thin light-gray borders
+- `carbon-candy-pink (thin-border)` — Pink variant with thin light-gray borders
+- `carbon-candy-purple (thin-border)` — Purple variant with thin light-gray borders
 
 These variants do not modify original themes; they are additional theme files you can select from the Color Theme picker.
 
@@ -119,7 +138,7 @@ These variants do not modify original themes; they are additional theme files yo
 
 ## 🛠️ Why Choose Carbon Candy?
 
-- **20+ unique theme variants** to match any preference
+- **31 unique theme variants** to match any preference
 - Deep, eye-friendly dark backgrounds (ranging from near-black to charcoal)
 - Bright neon candy accents for excellent syntax visibility
 - Visually striking contrast without sacrificing readability
@@ -139,7 +158,20 @@ These variants do not modify original themes; they are additional theme files yo
   - and more
 - Compatible with:
   - VS Code
+  - VS Code **Agents window** (agent sessions) — every variant ships dedicated `agents*` / `agentSession*` color tokens, so the Agents window matches the editor instead of falling back to the default palette
   - Antigravity
+
+### **🤖 Agents Window Support**
+VS Code's **Agents window** is themed through its own set of color ids (`agents.background`, `agentsPanel.*`, `agentsChatInput.*`, `agentsBadge.*`, `agentSession*`, `agentsMobileDiff.*`, …). Carbon Candy defines all of them for **every** variant, derived from each theme's own palette:
+
+- **Shell & panels** — the Agents window shell, chat/files/terminal cards and the docked detail pane reuse the theme background, side bar and accent colors
+- **Chat input** — background, foreground, border, focus border and placeholder follow the theme's input styling
+- **Session list** — read indicators, selected/unfocused badge borders and the "needs input" marker use the theme's foreground, accent and warning colors
+- **Badges & buttons** — New Session button, unread badges and update progress use the theme accent
+- **Mobile changes list** — added/modified/deleted colors mirror the theme's Git decorations
+- **Chat surfaces** — request bubbles, code borders, checkpoint separators, find matches, line counters and the thinking shimmer are aligned with the rest of the theme
+
+Thin-border variants reuse their light-gray divider color for the Agents window cards, so the bordered look stays consistent across the whole workbench.
 
 ### **Color Palette Highlights**
 - **Backgrounds**: `#000000` to `#292D3E` (pure black to purple-tinted)

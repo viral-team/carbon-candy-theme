@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.18 — 2026-11-21
+
+### Added
+- **Agents window support**: every theme variant now ships dedicated color tokens for the VS Code Agents window (agent sessions), so it no longer falls back to the built-in palette.
+  - Shell and panels: `agents.background`, `agentsPanel.*`, `agentsDetail.background`, `agentsActivityBar.*`, `agentsCard.border`, `agentsBottomPanel.border`, `agentsGradient.tintColor`
+  - Chat input: `agentsChatInput.*` (background, foreground, border, focus border, placeholder)
+  - Session list: `agentSessionReadIndicator.foreground`, `agentSessionSelectedBadge.border`, `agentSessionSelectedUnfocusedBadge.border`, `agentSessionNeedsInput.foreground`, `agentStatusIndicator.background`
+  - Session views: `activeSessionView.*`, `inactiveSessionView.*`
+  - Buttons and badges: `agentsNewSessionButton.*`, `agentsBadge.*`, `agentsUnreadBadge.*`, `agentsUpdateButton.*`
+  - Agent feedback widgets: `agentFeedbackEditorWidget.*`, `agentFeedbackInputWidget.border`
+  - Mobile changes list: `agentsMobileDiff.addedForeground`, `agentsMobileDiff.modifiedForeground`, `agentsMobileDiff.deletedForeground`
+  - Chat surfaces shared with the Agents window: `chat.requestBackground`, `chat.statusBackground`, `chat.sessionStateIndicator.*`, `chat.avatarBackground`, `chat.linesAddedForeground`, `chat.linesRemovedForeground`, `chat.findMatch*`, `chat.thinkingShimmer`, `chat.inputWorkingBorderColor1`, `chat.voiceGlowBaseColor`, `chat.dictationActiveMicGlow`, `chat.mcpCompatibilityWarningForeground`, `chatManagement.sashBorder`, `aiCustomizationManagement.sashBorder`
+- Added `scripts/add_agents_colors.py`, which derives the Agents window tokens from each theme's own palette and is safe to re-run (existing keys are never overwritten).
+
+### Changed
+- Thin-border variants reuse their light-gray divider color for the Agents window cards, keeping the bordered look consistent across the workbench.
+- Updated the README with an Agents window support section.
+- **New branding**: the extension icon is now the 1:1 neon "VS Code + candy" logo, and the README opens with the new Carbon Candy hero banner.
+- README refreshed: new header with quick links, complete variant tree (thin-border and Bee Lightroom variants included) and updated variant count.
+
 ## 0.2.14 — 2026-07-01
 
 ### Added
