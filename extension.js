@@ -2,12 +2,30 @@ const vscode = require("vscode");
 const { monitorConfigChanges } = require("./lib/change-listener");
 const { syncOriginal } = require("./lib/theme");
 const { log } = require("./lib/log");
+
+function isAgentsWindow() {
+	// VS Code exposes "agents" as the app host of the Agents window
+	return vscode.env.appHost === "agents";
+}
+
 /**
  * @param {vscode.ExtensionContext} context
  */
 async function activate(context) {
 	log.info("Carbon Candy activated");
-	await syncOriginal();
+	// The Agents window only allows static contributions: its file system is
+	// not guaranteed to be writable and settings are managed in the editor window.
+	if (context.extensionMode !== vscode.ExtensionMode.Production || isAgentsWindow()) {
+		log.info("Static-only context (Agents window or development), skipping icon theme sync");
+		return;
+	}
+	try {
+		await syncOriginal();
+	} catch (e) {
+		// e.g. read-only installation: the contributed themes still work
+		log.error("Failed to sync icon theme", e && e.message ? e.message : e);
+		return;
+	}
 	// on activation, apply theme settings immediately (once per session)
 	monitorConfigChanges(true, false);
 

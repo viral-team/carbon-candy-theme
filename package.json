@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.18",
+  "version": "0.2.19",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -44,7 +44,10 @@
     "untrustedWorkspaces": {
       "supported": true
     },
-    "virtualWorkspaces": true
+    "virtualWorkspaces": true,
+    "agentsWindow": {
+      "supported": true
+    }
   },
   "activationEvents": [
     "onStartupFinished"

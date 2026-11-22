@@ -173,6 +173,8 @@ VS Code's **Agents window** is themed through its own set of color ids (`agents.
 
 Thin-border variants reuse their light-gray divider color for the Agents window cards, so the bordered look stays consistent across the whole workbench.
 
+> **Note:** the Agents window runs with its own profile and its own `workbench.colorTheme`, so it does not inherit the theme selected in the editor window. Open the Color Theme picker (or the settings) **from the Agents window** and pick a Carbon Candy variant there.
+
 ### **Color Palette Highlights**
 - **Backgrounds**: `#000000` to `#292D3E` (pure black to purple-tinted)
 - **Foregrounds**: `#D4D4D4` to `#EEFFFF` (neutral to cyan-white)

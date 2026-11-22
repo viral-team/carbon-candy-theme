@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.19 — 2026-11-22
+
+### Fixed
+- **Agents window compatibility**: the manifest now declares `capabilities.agentsWindow.supported`, so the extension is explicitly allowed in the Agents window instead of relying on the implicit "static contributions only" rule.
+- **Extension activation crash**: `lib/config.js` and `lib/theme.js` still required `icons/carbon-candy-icon-theme.json`, which was renamed to `carbon-candy-file-icon-theme.json` in 0.2.1. Activation failed with `Cannot find module '../icons/carbon-candy-icon-theme.json'` in every window; the paths now point to the current file.
+- The icon theme sync is skipped in the Agents window and in development hosts, and a read-only installation no longer breaks activation.
+
+### Note
+- The Agents window uses its own profile and its own `workbench.colorTheme`: select a Carbon Candy variant from the Agents window settings (or the Color Theme picker opened there) to apply it.
+
 ## 0.2.18 — 2026-11-21
 
 ### Added
