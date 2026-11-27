@@ -6,7 +6,7 @@ Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
 <br/>
 
-[![vscode](https://img.shields.io/badge/vscode-v1.92+-373277.svg?style=for-the-badge)](https://code.visualstudio.com/updates/v1_92) ![Static Badge](https://img.shields.io/badge/made_in-Italy-%23CD212A?style=for-the-badge&labelColor=%23008C45) ![GitHub last commit](https://img.shields.io/github/last-commit/viral-team/carbon-candy-theme?style=for-the-badge)
+[![vscode](https://img.shields.io/badge/vscode-v1.92+-373277.svg?style=for-the-badge)](https://code.visualstudio.com/updates/v1_92) ![version](https://img.shields.io/badge/version-0.2.23-373277.svg?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/made_in-Italy-%23CD212A?style=for-the-badge&labelColor=%23008C45) ![GitHub last commit](https://img.shields.io/github/last-commit/viral-team/carbon-candy-theme?style=for-the-badge)
 
 <br/>
 
@@ -28,7 +28,14 @@ Inspired by **Oxocarbon**, sweetened with vibrant candy-like colors.
 
 Built on the elegance of **Oxocarbon**, this pack enhances syntax clarity while adding personality through energetic and playful color contrasts.
 
-From refined anthracite to expressive neon palettes, Carbon Candy offers a sweet selection of moods for every developer.
+From refined anthracite to expressive neon palettes, Carbon Candy offers a sweet selection of moods for every developer — **32 variants** in total, all kept in sync with the latest VS Code UI.
+
+## 🆕 What's New in 0.2.23
+
+- **💜 Violet Collection** — three new purple-forward themes: **Nocturne**, **Synthwave** and **Amethyst**, each with a complete, independent palette (workbench colors, semantic tokens and TextMate scopes).
+- **🪟 Modern UI support (VS Code 1.147+)** — every variant now defines the `modernUI.*`, `modernActivityBar.*`, `modernTab.*`, `modernEditorTab.*`, `surface.*`, `inlineChat.*` and `markdownAlert.*` tokens, so the floating shell, connected tabs, inline chat and markdown alerts follow the theme instead of the built-in palette.
+- **🧹 Cleanup** — the `Aurora Thin Border` and `Carbon Thin Border` variants were removed to keep the pack focused. The remaining six thin-border variants are unchanged; if you had one of the removed themes selected, pick another variant from the Color Theme picker.
+- **🎯 Anthracite** — the focused Command Center / Quick Input row now has a visible neutral-gray surface instead of blending into the background.
 
 ## 🎨 Theme Variants Included
 
@@ -59,18 +66,20 @@ Carbon Candy
 │  └─ Gradient V4
 ├─ Thin Border Variants
 │  ├─ Dark
-│  ├─ Carbon
 │  ├─ Graphene
-│  ├─ Aurora
 │  ├─ Obsidian
 │  ├─ Bee
 │  ├─ Pink
 │  └─ Purple
-└─ Classics
-   ├─ Palenight
-   ├─ Solarized Dark
-   ├─ Solarized Light
-   └─ Solarized Light Modern
+├─ Classics
+│  ├─ Palenight
+│  ├─ Solarized Dark
+│  ├─ Solarized Light
+│  └─ Solarized Light Modern
+└─ Violet Collection
+   ├─ Nocturne
+   ├─ Synthwave
+   └─ Amethyst
 ```
 
 ### **🖤 Core Themes**
@@ -109,13 +118,28 @@ Inspired by the legendary **Solarized** palette and classic dark compositions:
 - **Solarized Light** — Light variant bringing Solarized's clarity to bright environments
 - **Solarized Light Modern** — Refined light variant with a more modern balance of contrast and softness
 
+### **💜 Violet Collection**
+Three distinct purple-forward themes, designed as more than background swaps:
+
+- **Carbon Candy Nocturne** — Midnight indigo and amethyst with cool lavender accents; the balanced, everyday choice.
+- **Carbon Candy Synthwave** — Blue-black surfaces, electric violet, controlled magenta and cold cyan; the most futuristic and high-energy variant.
+- **Carbon Candy Amethyst** — Warm aubergine and plum with dusty lilac, mauve and pearl text; the softest variant, with borderless focus treatment.
+
+| Variant | Editor | Primary accent | Syntax character |
+| --- | --- | --- | --- |
+| Nocturne | `#191627` | `#A78BFA` | Violet keywords, cool blue functions, amber types, sage strings |
+| Synthwave | `#111326` | `#B57BFF` | Electric violet keywords, cyan functions, cool-blue types, pink classes, mint strings |
+| Amethyst | `#211821` | `#B98BD9` | Dusty violet keywords, muted lilac functions, warm ochre types, soft sage strings |
+
+The three palettes include complete workbench colors, semantic token colors and TextMate scopes. Syntax colors use different hue families and retain category cues beyond red/green distinctions; comments and UI secondary text are designed to remain readable on their corresponding surfaces.
+
+Contrast checks are provided by `scripts/audit_violet_collection.py` (WCAG AA checks for text and UI labels plus simulated protanopia, deuteranopia and tritanopia comparisons). Run it with `python3 scripts/audit_violet_collection.py` after regenerating themes with `python3 scripts/build_violet_collection.py`.
+
 ### **🔲 Thin Light-Gray Bordered Variants**
 For users who want clearer visual separation between UI regions, thin light-gray bordered variants add a subtle 1px-style border around panels, the activity/side bar, editor groups, tabs and other UI surfaces.
 
 - `carbon-candy-dark (thin-border)` — Dark theme with thin light-gray borders
-- `carbon-candy-carbon (thin-border)` — Carbon variant with thin light-gray borders
 - `carbon-candy-graphene (thin-border)` — Graphene variant with thin light-gray borders
-- `carbon-candy-aurora (thin-border)` — Aurora variant with thin light-gray borders
 - `carbon-candy-obsidian (thin-border)` — Obsidian variant with thin light-gray borders
 - `carbon-candy-bee (thin-border)` — Bee variant with thin light-gray borders
 - `carbon-candy-pink (thin-border)` — Pink variant with thin light-gray borders
@@ -138,7 +162,7 @@ These variants do not modify original themes; they are additional theme files yo
 
 ## 🛠️ Why Choose Carbon Candy?
 
-- **31 unique theme variants** to match any preference
+- **32 unique theme variants** to match any preference
 - Deep, eye-friendly dark backgrounds (ranging from near-black to charcoal)
 - Bright neon candy accents for excellent syntax visibility
 - Visually striking contrast without sacrificing readability
@@ -147,6 +171,7 @@ These variants do not modify original themes; they are additional theme files yo
   - **Gradient** — Smooth multi-tone transitions (v1–v4)
   - **Playful** — Pink and Purple with candy-style pops
   - **Minimalist** — Palenight, Carbon, Obsidian, Aurora with borderless design
+  - **Violet** — Nocturne, Synthwave and Amethyst for purple-forward setups
 - Optimized for:
   - Java
   - Kotlin
@@ -158,8 +183,22 @@ These variants do not modify original themes; they are additional theme files yo
   - and more
 - Compatible with:
   - VS Code
+  - VS Code **Modern UI** (1.147+) — every variant ships the `modernUI.*` / `surface.*` / `modernEditorTab.*` tokens, so the floating shell and connected tabs keep the theme colors
   - VS Code **Agents window** (agent sessions) — every variant ships dedicated `agents*` / `agentSession*` color tokens, so the Agents window matches the editor instead of falling back to the default palette
   - Antigravity
+
+### **🪟 Modern UI Support (VS Code 1.147+)**
+VS Code 1.147 enables the **Modern UI** by default and themes it through a new set of color ids. Carbon Candy defines them for **every** variant, derived from each theme's own palette:
+
+- **Shell** — `modernUI.shellBackground`, `modernUI.inactiveShellBackground`, `surface.background` / `foreground` / `border`
+- **Activity bar** — `modernActivityBar.*` and `modernActivityBarItem.*` (active/hover states use the theme accent)
+- **Tabs** — `modernTab.*`, `modernEditorTab.*`, `editorGroupHeader.connectedTabsBackground`, `tab.divider` and `tab.selectedBorderTop`
+- **Panels & sashes** — `modernPanel.border`, `modernSash.gripForeground`
+- **Inline chat** — `inlineChat.*`, `inlineChatDiff.*`, `inlineChatInput.*`
+- **Markdown alerts** — `markdownAlert.note/tip/important/warning/caution` mapped to the theme's blue, green, purple, yellow and red
+- **Chat surfaces** — `chat.fusionBadgeGradient*`, `chat.inputWorkingBorderColor2/3`, `chat.voiceListeningGlow`, `chat.voiceSpeakingGlow`, `chat.workingProgress*IconForeground`
+
+`scripts/add_modern_ui_colors.py` regenerates these tokens from each theme's palette and never overwrites existing keys.
 
 ### **🤖 Agents Window Support**
 VS Code's **Agents window** is themed through its own set of color ids (`agents.background`, `agentsPanel.*`, `agentsChatInput.*`, `agentsBadge.*`, `agentSession*`, `agentsMobileDiff.*`, …). Carbon Candy defines all of them for **every** variant, derived from each theme's own palette:
@@ -176,8 +215,9 @@ Thin-border variants reuse their light-gray divider color for the Agents window 
 > **Note:** the Agents window runs with its own profile and its own `workbench.colorTheme`, so it does not inherit the theme selected in the editor window. Open the Color Theme picker (or the settings) **from the Agents window** and pick a Carbon Candy variant there.
 
 ### **Color Palette Highlights**
-- **Backgrounds**: `#000000` to `#292D3E` (pure black to purple-tinted)
+- **Backgrounds**: `#000000` to `#292D3E` (pure black to purple-tinted); the Violet Collection adds `#111326`–`#211821`
 - **Foregrounds**: `#D4D4D4` to `#EEFFFF` (neutral to cyan-white)
+- **Violet accents**: `#A78BFA` (Nocturne), `#B57BFF` (Synthwave), `#B98BD9` (Amethyst)
 - **Syntax Tokens**: Vibrant candy colors
   - Blues: `#82AAFF`
   - Greens: `#C3E88D`

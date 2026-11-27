@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.2.23 — 2026-11-27
+
+### Added
+- **Violet Collection**: three new purple-forward variants, each with a complete and independent palette (workbench colors, semantic token colors and TextMate scopes):
+  - **Carbon Candy Nocturne** — midnight indigo and amethyst with cool lavender accents
+  - **Carbon Candy Synthwave** — blue-black surfaces with electric violet, magenta and cold cyan
+  - **Carbon Candy Amethyst** — warm aubergine and plum with dusty lilac and pearl text
+- `scripts/build_violet_collection.py` regenerates the three violet themes deterministically.
+- `scripts/audit_violet_collection.py` runs WCAG AA contrast checks plus simulated protanopia, deuteranopia and tritanopia comparisons for the Violet Collection.
+
+### Changed
+- **Anthracite**: the focused Command Center / Quick Input row now uses a visible neutral-gray surface (`#303030`–`#383838`) instead of blending into the `#212121` background; the suggest widget selection and focus outline were aligned as well.
+- Manifest keywords updated for the new variants (`nocturne`, `synthwave`, `amethyst`, `violet`).
+
+### Removed
+- **`Carbon Candy Aurora Thin Border`** and **`Carbon Candy Carbon Thin Border`** were removed to keep the pack focused. The remaining six thin-border variants are unchanged; users who had a removed theme selected need to pick another variant from the Color Theme picker.
+
+## 0.2.20 — 2026-11-24
+
+### Added
+- **Modern UI support (VS Code 1.147+)**: every variant now defines the new color ids introduced by the Modern UI (`modernUI.*`, `modernActivityBar.*`, `modernTab.*`, `modernEditorTab.*`, `modernPanel.*`, `modernSash.*`, `surface.*`, `inlineChat.*`, `inlineChatDiff.*`, `inlineChatInput.*`, `markdownAlert.*`), plus `editorGroupHeader.connectedTabsBackground`, `tab.divider`, `tab.selectedBorderTop`, `editor.inactiveLineHighlightBackground`, `editorBracketMatch.foreground`, `editorWordWrapIndicator.foreground`, `editorSuggestWidget.focusOutline` and the new `chat.*` working/voice tokens.
+- Added `scripts/add_modern_ui_colors.py`, which derives those tokens from each theme's own palette and is safe to re-run (existing keys are never overwritten).
+
+### Changed
+- Without these tokens the floating shell, connected tabs, inline chat and markdown alerts fell back to the built-in palette and looked foreign next to the Carbon Candy colors.
+
 ## 0.2.19 — 2026-11-22
 
 ### Fixed

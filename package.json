@@ -3,7 +3,7 @@
   "icon": "img/app-logo.png",
   "displayName": "Carbon Candy",
   "description": "Carbon Candy Theme for VS Code",
-  "version": "0.2.20",
+  "version": "0.2.23",
   "publisher": "viral-team",
   "engines": {
     "vscode": "^1.92.0"
@@ -25,10 +25,7 @@
     "graphene",
     "graphene pink",
     "graphene purple",
-    "graphene gradient v1",
-    "graphene gradient v2",
-    "graphene gradient v3",
-    "graphene gradient v4",
+    "graphene gradient",
     "bee",
     "palenight",
     "obsidian",
@@ -38,7 +35,11 @@
     "solarized light",
     "lightroom",
     "kawasaki",
-    "matrix"
+    "matrix",
+    "nocturne",
+    "synthwave",
+    "amethyst",
+    "violet"
   ],
   "capabilities": {
     "untrustedWorkspaces": {
@@ -192,18 +193,6 @@
         "path": "./themes/carbon-candy-aurora.json"
       },
       {
-        "id": "carbon-candy-aurora-thin-border",
-        "label": "Carbon Candy Aurora Thin Border",
-        "uiTheme": "vs-dark",
-        "path": "./themes/carbon-candy-aurora-thin-border.json"
-      },
-      {
-        "id": "carbon-candy-carbon-thin-border",
-        "label": "Carbon Candy Carbon Thin Border",
-        "uiTheme": "vs-dark",
-        "path": "./themes/carbon-candy-carbon-thin-border.json"
-      },
-      {
         "id": "carbon-candy-dark-thin-border",
         "label": "Carbon Candy Dark Thin Border",
         "uiTheme": "hc-black",
@@ -214,8 +203,7 @@
         "label": "Carbon Candy Graphene Thin Border",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon-candy-graphene-thin-border.json"
-      }
-      ,
+      },
       {
         "id": "carbon-candy-graphene-pink-thin-border",
         "label": "Carbon Candy Pink Thin Border",
@@ -245,6 +233,24 @@
         "label": "Carbon Candy Solarized Light Modern",
         "uiTheme": "vs",
         "path": "./themes/carbon-candy-solarized-light-modern.json"
+      },
+      {
+        "id": "carbon-candy-nocturne",
+        "label": "Carbon Candy Nocturne",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-nocturne.json"
+      },
+      {
+        "id": "carbon-candy-synthwave",
+        "label": "Carbon Candy Synthwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-synthwave.json"
+      },
+      {
+        "id": "carbon-candy-amethyst",
+        "label": "Carbon Candy Amethyst",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon-candy-amethyst.json"
       }
     ],
     "iconThemes": [
